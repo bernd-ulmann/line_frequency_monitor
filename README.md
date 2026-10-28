@@ -9,3 +9,11 @@ This little Arduino based project implements basically a reciprocal counter to d
 the duration of a single mains period. It requires an Arduino Uno, a cheap two line
 LC-display, and a little circuit for powering the Arduino and deriving an interrupt 
 signal based on the mains signal. 
+
+![Front](line_frequency_monitor_front.jpg)
+
+Please note that this project is far from being "production ready". It is the result
+of a lazy Sunday and serves merely as a proof-of-concept, and there is much to be 
+desired (increase resolution to mHz, perform statistics such as average and variance,
+maybe audible limit warnings, etc.). 
+
